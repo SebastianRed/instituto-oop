@@ -18,4 +18,11 @@ public abstract class Persona {
         return nombre;
     }
 
+    public abstract String describirRol();
+
+    @Override
+    public String toString() {
+        return "Persona: " + nombre + " (" + rut + ")";
+    }
+
 }

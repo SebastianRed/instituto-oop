@@ -20,11 +20,7 @@ public class Estudiante extends Persona {
 
     @Override
     public String toString() {
-        return "Estudiante{" +
-                "rut='" + getRut() + '\'' +
-                ", nombre='" + getNombre() + '\'' +
-                ", nivel='" + nivel + '\'' +
-                '}';
+        return "Estudiante: " + getNombre() + " (" + getRut() + ") - Nivel: " + nivel;
     }
 
 }
